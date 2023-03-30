@@ -1,0 +1,7 @@
+1. 在主程序futures_grid中，将api修改为自己的api key 和 secret     （检查actual_trading是否为True，否则只测试计算网格区间，不交易）
+
+2. 打开grid_params_1，设置网格参数，然后ctrl + s保存，一定要保存！！
+
+3. 运行主程序
+
+# 程序会将所有输出保存为一个 trading_logs.txt 文件，可用于事后检查

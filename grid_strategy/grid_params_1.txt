@@ -1,0 +1,30 @@
+# 设置合约名称
+symbol_name= APTUSDT
+
+# 设置网格方向(BUY/SELL)
+grid_side= BUY
+
+# 设置网格上限
+upper_limit= 8.0
+
+# 设置网格下限
+down_limit= 7.5
+
+# 设置网格触发退出价格
+quit_price= 0
+
+# 设置价格跳变，即等差网格价格间距
+price_step= 0.005
+
+# 设置套利交易每格交易数量（合约数量，比如 0.001 个BTC）
+each_quantity= 1
+
+# 设置看多(空)比例，100% 表示完全看多(空)，网格开始后会成交100% 市价上(下)的多(空)单，0% 表示中性网格
+ini_trade_ratio= 0.10
+
+# 设置(该合约)交易杠杆
+account_leverage= 10
+
+# 设置完成
+
+
