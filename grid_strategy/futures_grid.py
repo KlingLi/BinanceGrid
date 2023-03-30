@@ -158,8 +158,8 @@ def get_certain_exchange_info(symbol_name: str, client) -> dict:
             return dict(each_symbol_info)
 
 
-api_key = '5UWWIOrHCU6Rd79H23OSnvJdv26hevyDyeANEltH3ozIZUWp3OzWip9S0E9s3EXw'
-api_secret = '6iKLR5lnAzJPpN9IcRPKVK7YHm6gJznIhezFYhEwcbnf4F6MLxgCXWRVrFi56rXY'
+api_key = 'your_api_key'
+api_secret = 'your_api_secret'
 
 trading_recorder = LogRecorder()
 trading_recorder.open_file('trading_logs_1')
